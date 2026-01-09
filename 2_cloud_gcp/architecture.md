@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
   A["Mobile App"] -->|HTTPS| AGW["API Gateway"]
   AGW --> API["Cloud Run - Serving API"]
