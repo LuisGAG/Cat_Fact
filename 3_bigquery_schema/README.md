@@ -90,9 +90,9 @@ WHERE load_date >= DATE_SUB(CURRENT_DATE(), INTERVAL 30 DAY)
 GROUP BY load_date
 ORDER BY load_date;
 
+
 ## 🧩 Diagrama do Esquema (BigQuery)
 
-```mermaid
 erDiagram
   CAT_FACTS_CURATED {
     STRING fact_id PK
