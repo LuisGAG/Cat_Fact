@@ -91,7 +91,7 @@ GROUP BY load_date
 ORDER BY load_date;
 ```
 
-## 🧩 Diagrama do Esquema (BigQuery)
+## 🧩 Modelo de Dados – Cat Facts (BigQuery)
 
 ```mermaid
 erDiagram
